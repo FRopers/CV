@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     height: 100%;
@@ -18,6 +19,10 @@ body *{
 
 ul {
     list-style: none;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 .content {
@@ -45,7 +50,7 @@ ul {
 
 
 .photo {
-    margin: 20px auto;
+    margin: 20px auto 40px auto;
     height: 150px;
     width: 150px;
     border-radius: 150px;
@@ -57,6 +62,14 @@ img {
     max-height: auto;
     border-radius: inherit;
     object-fit: cover;
+}
+
+.contact li {
+    display: flex;
+}
+
+.contact p {
+    margin: 0 0 10px 10px;
 }
 
 .experience {
@@ -73,10 +86,29 @@ img {
     margin-bottom: 30px;
 }
 
+.experience_marge h2 {
+    height: 35px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.experience_date li {
+    display: flex;
+}
+
+.experience_date h3 {
+    width: 120px;
+}
 
 .job {
     display: flex;
     align-items: center;
-    height: 150px;
+    height: 185px;
 
+}
+
+.job p {
+    font-size: 2em;
+    font-weight: bold;
+    color: #29415b;
 }
